@@ -13,7 +13,7 @@ const countMostAndLeast = (binaries, bitPosition) => {
         result[binary[bitPosition]].push(binary);
     }
 
-    if((result[0].length == result[1].length) || result[0].length < result[1].length) {
+    if(result[0].length <= result[1].length) {
         result.push(result.shift()); // inverse
     }
 
