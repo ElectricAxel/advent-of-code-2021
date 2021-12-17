@@ -1,3 +1,5 @@
+// TODO: up and right are valid moves
+
 const fs = require("fs");
 const path = require("path");
 
